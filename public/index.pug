@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+
+head
+	title Header Parser
+	meta(charset="utf-8")
+	meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+	meta(http-equiv='x-ua-compatible', content='ie=edge')
+	link(href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700', rel='stylesheet')
+	// Bootstrap
+	link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css', integrity='sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd', crossorigin='anonymous')
+	// Custom Stylesheet
+	link(rel='stylesheet', type='text/css', href='style.css')
+	
+body
+	.container
+		h1.display-4 Header Parsing API
+		hr
+		p An API that tells the user their IP address, language, and operating system for their browser when connected to the 
+			code whoami
+			|  route.
+		dl
+			dt.col-sm-2 Example Output
+			dd.col.sm-10 
+				code {"ipaddress":"46.19.141.156","language":"en-US","software":"Windows NT 10.0; WOW64; rv:48.0"}
+		a.btn.btn-primary.btn-lg.center-block(href=who) Take me there!

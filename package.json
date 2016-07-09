@@ -1,0 +1,19 @@
+{
+  "name": "headerapi",
+  "version": "0.0.1",
+  "description": "parses request header",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cinders-P",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta3",
+    "stylus": "^0.54.5"
+	},
+	"engines": {
+		"node":"6.3.0"
+	}
+}
